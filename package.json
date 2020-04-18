@@ -1,0 +1,33 @@
+{
+  "name": "invite-to-like",
+  "version": "0.0.1",
+  "description": ":robot: Invite people who interacted with a Facebook post",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lfreneda/invite-to-like.git"
+  },
+  "author": "Luiz Freneda <lfreneda@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lfreneda/invite-to-like/issues"
+  },
+  "homepage": "https://github.com/lfreneda/invite-to-like#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "husky": "^4.2.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  }
+}
