@@ -1,7 +1,8 @@
 
 <div align="center">
-  <h1>invite-to-like</h1>
-  <p>:robot: Invite people who interacted with a Facebook post</p>
+  <p>
+    <img src=".github/static/invite-to-like.png"/>
+  </p>
   <p>
 
 ![Continuous Integration](https://github.com/lfreneda/invite-to-like/workflows/Continuous%20Integration/badge.svg)
